@@ -1,6 +1,6 @@
 # Codexa
 
-**Codexa** is a responsive and professionally designed coding blog built using **HTML5**, **CSS3**, and **Bootstrap 4**.  
+**Codexa** is a responsive and professionally designed coding blog built using **HTML5**, **CSS3**, and **Bootstrap**.  
 It features a modern black and orange theme and covers a range of programming topics, including:
 
 - Algorithms  
@@ -13,7 +13,7 @@ It features a modern black and orange theme and covers a range of programming to
 
 - **HTML5**
 - **CSS3**
-- **Bootstrap 4.6**
+- **Bootstrap**
 - Fully responsive layout design
 
 ---
