@@ -1,0 +1,119 @@
+/* Background */
+body {
+  background: linear-gradient(to right, #0a0a0a, #1c1b1b);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+}
+
+/* Container */
+.login-container {
+  max-width: 480px;
+  width: 100%;
+  background-color: #1f1e1ebe;
+  padding: 45px 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(255, 122, 0, 0.15);
+  animation: slideIn 0.6s ease-out;
+}
+
+/* Animation */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #f88519;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* Form Elements */
+label {
+  color: #ffaa4d;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.form-control {
+  height: 48px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #444;
+  background-color: #222;
+  color: #eee;
+}
+
+.form-control:focus {
+  border-color: #f9891f;
+  box-shadow: 0 0 6px rgba(255, 122, 0, 0.4);
+  background-color: #222;
+  color: #fff;
+}
+
+/* Toggle password */
+.toggle-password {
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 38px;
+  color: #ffaa4d;
+  font-size: 1.2rem;
+}
+
+/* Button */
+.btn-primary {
+  background-color: #f68c29;
+  border: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  height: 48px;
+  border-radius: 10px;
+  color: #f2eded;
+  transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #ffaa4d;
+}
+
+/* Google Button */
+.google-btn button {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+  background-color: #f5f0f0;
+  color: #0b0000;
+}
+.google-btn button:hover {
+  transform: translateY(-2px);
+}
+
+/* Footer text */
+p {
+  margin-top: 25px;
+  font-size: 1rem;
+  text-align: center;
+}
+a {
+  color: #ff7a00;
+  font-weight: 600;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ffaa4d;
+}

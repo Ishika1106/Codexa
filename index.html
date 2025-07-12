@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Codexa</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Codexa</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="heroCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#heroCarousel" data-slide-to="1"></li>
+      <li data-target="#heroCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://t4.ftcdn.net/jpg/07/38/75/57/360_F_738755711_DLq3LXtxpLjsEY5wxaQaulVzDbEpnrty.jpg"
+          class="d-block w-100" alt="Slide 1" />
+        <div class="carousel-caption">
+          <h1>Welcome to Codexa</h1>
+          <p>Where humor meets code—Algorithms, AI, and more!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://img.freepik.com/premium-photo/closeup-computer-keyboard-with-blurry-background-computer-monitor-showing-code_713655-21280.jpg"
+          class="d-block w-100" alt="Slide 2" />
+        <div class="carousel-caption">
+          <h1>AI With a Sense of Humor</h1>
+          <p>Explore tech with a fun twist. Dive into our blogs!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR2QjSpI44CQQwM--try6KGQAQHB288sbrchRF5f-nZt5-8ZaJq"
+          class="d-block w-100" alt="Slide 3" />
+        <div class="carousel-caption">
+          <h1>Web Dev Woes & Wins</h1>
+          <p>Laugh, learn, and maybe cry a little with CSS stories.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <!-- Blog Cards -->
+  <div class="container my-5">
+    <div class="row">
+      <!-- Post 1 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://thumbs.dreamstime.com/b/puzzle-piece-glowing-orange-center-surrounded-dark-background-concept-mystery-intrigue-as-stands-out-323041384.jpg" class="card-img-top"
+            alt="Data sorting concept">
+          <div class="card-body">
+            <span class="badge badge-info mb-2">Algorithms</span>
+            <h5 class="card-title">Understanding Sorting Algorithms in Real Life</h5>
+            <p class="card-text">Explore how sorting algorithms like merge sort and quick sort apply to daily tasks,
+              data organization, and system optimization.</p>
+            <a href="post1.html" class="btn btn-outline-primary btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post 2 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img
+            src="https://thumbs.dreamstime.com/b/futuristic-digital-world-map-glowing-orange-dots-blue-grid-background-ai-generated-363896555.jpg"
+            class="card-img-top" alt="Web development code">
+          <div class="card-body">
+            <span class="badge badge-success mb-2">Web Dev</span>
+            <h5 class="card-title">Modern CSS Techniques for Responsive Design</h5>
+            <p class="card-text">A practical guide to building responsive and accessible interfaces using Flexbox, Grid,
+              and modern CSS best practices.</p>
+            <a href="post2.html" class="btn btn-outline-primary btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post 3 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img
+            src="https://thumbs.dreamstime.com/b/light-effects-dark-blue-geometric-background-abstract-design-light-effects-dark-blue-geometric-background-375693798.jpg"
+            class="card-img-top" alt="AI with code">
+          <div class="card-body">
+            <span class="badge badge-warning mb-2">AI</span>
+            <h5 class="card-title">The Role of Generative AI in Education</h5>
+            <p class="card-text">An overview of how generative AI tools are transforming learning, content creation, and
+              personalized education workflows.</p>
+            <a href="post3.html" class="btn btn-outline-primary btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="col-md-4 mb-4">
+  <h5 class="text-uppercase footer-heading">Codexa</h5>
+  <p class="footer-text">
+    Codexa is your hub for insightful blogs on algorithms, web development, and AI — crafted for tech
+    enthusiasts, learners, and creators worldwide.
+  </p>
+</div>
+
+<!-- Quick Links Column -->
+<div class="col-md-4 mb-4">
+  <h6 class="text-uppercase footer-heading">Quick Links</h6>
+  <ul class="list-unstyled">
+    <li><a href="about.html" class="footer-link d-block mb-1">About Us</a></li>
+    <li><a href="contact.html" class="footer-link d-block mb-1">Contact</a></li>
+    <li><a href="login.html" class="footer-link d-block mb-1">Login</a></li>
+    <li><a href="register.html" class="footer-link d-block mb-1">Register</a></li>
+  </ul>
+</div>
+
+<!-- Follow Us Column -->
+<div class="col-md-4 mb-4">
+  <h6 class="text-uppercase footer-heading">Follow Us</h6>
+  <p class="footer-text mb-1">
+    <a href="#" class="footer-link d-block">LinkedIn</a>
+    <a href="#" class="footer-link d-block">GitHub</a>
+    <a href="#" class="footer-link d-block">Twitter</a>
+  </p>
+  <small class="footer-subtext">Stay connected for updates and insights.</small>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+</html>

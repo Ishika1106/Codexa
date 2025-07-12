@@ -1,0 +1,145 @@
+body {
+  background-color: #141212;
+  color: #ddd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000;
+}
+.navbar-brand,
+.nav-link {
+  color: #ff7a00 !important;
+}
+.nav-link:hover {
+  color: #ff944d !important;
+}
+
+/* Carousel */
+.carousel-inner {
+  max-height: 400px;
+  overflow: hidden;
+}
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  bottom: 2rem;
+  top: auto;
+}
+.carousel-caption h1 {
+  color: #ff7a00;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.carousel-caption p {
+  color: #f0f0f0;
+  font-size: 1rem;
+}
+
+/* Cards */
+.card {
+  background-color: #202020;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  color: #eee;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(255, 122, 0, 0.2);
+}
+.card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Buttons */
+.btn-outline-primary {
+  border-color: #ff7a00;
+  color: #ff7a00;
+  border-radius: 25px;
+}
+.btn-outline-primary:hover {
+  background-color: #ff7a00;
+  color: #2f2d2d;
+}
+
+/* Badges */
+.badge-info {
+  background-color: #ff7a00;
+  color: #000;
+}
+.badge-success {
+  background-color: #00c48c;
+  color: #191818;
+}
+.badge-warning {
+  background-color: #ffc107;
+  color: #2c2929;
+}
+
+/* Footer */
+footer {
+  background-color: #171616;
+  color: #ccc;
+  font-size: 0.95rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid #1a1616;
+  box-shadow: 0 -2px 20px rgba(255, 122, 0, 0.15);
+}
+
+/* Footer Headings */
+.footer-heading {
+  color: #ff7a00 !important;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Footer Links */
+.footer-link {
+  color: #ff7a00;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+.footer-link:hover {
+  color: #ffaa4d;
+  text-decoration: underline;
+}
+/* Footer Major Headings */
+.footer-heading {
+  color: #ff7a00;
+  font-weight: 600;
+}
+
+/* Footer Paragraphs and Minor Text */
+.footer-text {
+  color: #ffaa4d;
+}
+
+/* Footer Subtext (like small notes) */
+.footer-subtext {
+  color: #ffb76a;
+  font-size: 0.85rem;
+}
+
+/* Footer Links */
+.footer-link {
+  color: #ffaa4d;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+.footer-link:hover {
+  color: #ffcc99;
+  text-decoration: underline;
+}

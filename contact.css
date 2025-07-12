@@ -1,0 +1,75 @@
+/* Body Background */
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.container h1 {
+  color: #ff7a00;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Subtext */
+.lead {
+  font-size: 1.1rem;
+  color: #ccc;
+  text-align: center;
+}
+
+/* Contact Form Styling */
+form {
+  background-color: #191717;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(255, 122, 0, 0.08);
+  color: #ddd;
+}
+
+/* Labels */
+form label {
+  font-weight: 600;
+  color: #ff944d;
+}
+
+/* Input Fields */
+form .form-control {
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: #1f1f1f;
+  color: #eee;
+}
+
+form .form-control:focus {
+  border-color: #ff7a00;
+  box-shadow: 0 0 6px rgba(255, 122, 0, 0.4);
+}
+
+/* Submit Button */
+form .btn-primary {
+  background-color: #ff7a00;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  color: #1b1a1a;
+}
+
+form .btn-primary:hover {
+  background-color: #ffa347;
+  color: #1b1a1a;
+}
+
+/* Footer */
+footer {
+  background-color: #060606;
+  color: #0e0a0a;
+  font-size: 0.95rem;
+  box-shadow: 0 -2px 8px rgba(255, 122, 0, 0.15);
+}
