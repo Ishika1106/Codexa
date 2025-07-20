@@ -21,8 +21,6 @@ form {
   box-shadow: 0 8px 30px rgba(255, 122, 0, 0.08);
   color: #ddd;
 }
-
-/* Labels */
 form label {
   font-weight: 600;
   color: #ff944d;
@@ -41,8 +39,6 @@ form .form-control:focus {
   border-color: #ff7a00;
   box-shadow: 0 0 6px rgba(255, 122, 0, 0.4);
 }
-
-/* Submit Button */
 form .btn-primary {
   background-color: #ff7a00;
   border: none;
@@ -58,8 +54,6 @@ form .btn-primary:hover {
   background-color: #ffa347;
   color: #1b1a1a;
 }
-
-/* Footer */
 footer {
   background-color: #060606;
   color: #0e0a0a;
