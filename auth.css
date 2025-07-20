@@ -77,8 +77,6 @@ label {
 .btn-primary:hover {
   background-color: #ffaa4d;
 }
-
-/* Google Button */
 .google-btn button {
   font-size: 1rem;
   padding: 10px;
@@ -90,8 +88,6 @@ label {
 .google-btn button:hover {
   transform: translateY(-2px);
 }
-
-/* Footer text */
 p {
   margin-top: 25px;
   font-size: 1rem;
