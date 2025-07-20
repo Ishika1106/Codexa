@@ -3,8 +3,6 @@ body {
   color: #ddd;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-/* Navbar */
 .navbar {
   background-color: #000;
 }
@@ -15,8 +13,6 @@ body {
 .nav-link:hover {
   color: #ff944d !important;
 }
-
-/* Carousel */
 .carousel-inner {
   max-height: 400px;
   overflow: hidden;
@@ -44,8 +40,6 @@ body {
   color: #f0f0f0;
   font-size: 1rem;
 }
-
-/* Cards */
 .card {
   background-color: #202020;
   border: none;
@@ -72,8 +66,6 @@ body {
   background-color: #ff7a00;
   color: #2f2d2d;
 }
-
-/* Badges */
 .badge-info {
   background-color: #ff7a00;
   color: #000;
@@ -86,8 +78,6 @@ body {
   background-color: #ffc107;
   color: #2c2929;
 }
-
-/* Footer */
 footer {
   background-color: #171616;
   color: #ccc;
@@ -98,15 +88,11 @@ footer {
   border-top: 1px solid #1a1616;
   box-shadow: 0 -2px 20px rgba(255, 122, 0, 0.15);
 }
-
-/* Footer Headings */
 .footer-heading {
   color: #ff7a00 !important;
   font-weight: 600;
   margin-bottom: 1rem;
 }
-
-/* Footer Links */
 .footer-link {
   color: #ff7a00;
   text-decoration: none;
@@ -116,24 +102,17 @@ footer {
   color: #ffaa4d;
   text-decoration: underline;
 }
-/* Footer Major Headings */
 .footer-heading {
   color: #ff7a00;
   font-weight: 600;
 }
-
-/* Footer Paragraphs and Minor Text */
 .footer-text {
   color: #ffaa4d;
 }
-
-/* Footer Subtext (like small notes) */
 .footer-subtext {
   color: #ffb76a;
   font-size: 0.85rem;
 }
-
-/* Footer Links */
 .footer-link {
   color: #ffaa4d;
   text-decoration: none;
