@@ -11,15 +11,11 @@ body {
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(255, 122, 0, 0.1);
 }
-
-/* Post title */
 h1 {
   font-size: 2.4rem;
   font-weight: 700;
   color: #f48f31;
 }
-
-/* Post meta */
 .text-muted {
   font-size: 0.95rem;
   color: #bbb !important;
