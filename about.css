@@ -1,12 +1,8 @@
-/* ===== About Page Styles (Black & Orange Theme) ===== */
-
 body {
   background-color: #1c1b1b;
   color: #ddd;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-/* About Section Header */
 .container h1 {
   color: #ff7a00;
   font-weight: 700;
@@ -20,30 +16,22 @@ body {
   text-align: center;
   margin-bottom: 40px;
 }
-
-/* Section Headings (Mission, Community) */
 .container h4 {
   color: #ff7a00;
   font-weight: 600;
   margin-top: 25px;
 }
-
-/* Paragraph Styling */
 .container p {
   font-size: 1.05rem;
   line-height: 1.7;
   color: #e0e0e0;
 }
-
-/* Image Styling */
 .img-fluid.rounded.shadow {
   max-width: 100%;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(242, 140, 88, 0.708);
   margin-top: 20px;
 }
-
-/* Responsive Padding */
 @media (max-width: 768px) {
   .container .row {
     text-align: center;
@@ -52,8 +40,6 @@ body {
     margin-top: 30px;
   }
 }
-
-/* Navbar override to match theme */
 .navbar-dark .navbar-brand,
 .navbar-dark .nav-link {
   color: #ff7a00 !important;
@@ -61,8 +47,6 @@ body {
 .navbar-dark .nav-link:hover {
   color: #ffaa4d !important;
 }
-
-/* Footer Styling */
 footer {
   background-color: #0a0a0a;
   color: #ffaa4d;
