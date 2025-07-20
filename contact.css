@@ -1,26 +1,19 @@
-/* Body Background */
 body {
   background-color: #121212;
   color: #f0f0f0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-/* Heading */
 .container h1 {
   color: #ff7a00;
   font-weight: 700;
   margin-bottom: 10px;
   text-align: center;
 }
-
-/* Subtext */
 .lead {
   font-size: 1.1rem;
   color: #ccc;
   text-align: center;
 }
-
-/* Contact Form Styling */
 form {
   background-color: #191717;
   padding: 30px;
